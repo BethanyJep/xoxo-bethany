@@ -3,6 +3,8 @@
   "dependencies": {
     "@azure-rest/ai-inference": "latest",
     "@azure/core-auth": "latest",
-    "@azure/core-sse": "latest"
+    "@azure/core-sse": "latest",
+    "@langchain/openai": "^0.5.11",
+    "langchain": "^0.3.27"
   }
 }
