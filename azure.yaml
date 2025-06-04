@@ -1,4 +1,13 @@
-webapi:
+webapp:
     project: packages/webapp
-    host: appservice
+    host: staticwebapp
     language: js
+    dist: dist
+    hooks:
+      predeploy:
+        windows:
+          shell: pwsh
+          run: npm run build
+        posix:
+          shell: sh
+          run: npm run build
