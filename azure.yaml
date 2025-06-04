@@ -1,0 +1,4 @@
+webapi:
+    project: packages/webapp
+    host: appservice
+    language: js
